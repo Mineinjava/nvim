@@ -3,7 +3,6 @@ vim.loader.enable()
 -- config files
 require("config.mappings")
 require("config.edit")
-
 -- plugin manager
 require("config.lazy")
 
@@ -11,3 +10,5 @@ require("config.lazy")
 require("mason").setup()
 require("config.autocomplete")
 
+require("config.tree")
+vim.cmd.colorscheme "dracula"

@@ -17,7 +17,7 @@ function vmap(shortcut, command)
 end
 
 nmap("<", ":call cursor(line(\".\"), 72)\n")
-
+-- copy paste
 vmap(string.format("%sy", LEADER), '"+y')
 nmap(string.format("%sY", LEADER), '"+yg_')
 nmap(string.format("%sy", LEADER), '"+y')
@@ -25,3 +25,4 @@ nmap(string.format("%sy", LEADER), '"+y')
 nmap(string.format("%sP", LEADER), '"+P')
 nmap(string.format("%sp", LEADER), '"+p')
 
+nmap(string.format("%st", LEADER), ":NvimTreeToggle\n")
