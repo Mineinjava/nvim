@@ -58,4 +58,5 @@ return {
     {"nathom/filetype.nvim"},
     {"Mofiqul/dracula.nvim"},
     {"nvim-tree/nvim-tree.lua"},
+    {'ggandor/leap.nvim'},
 }
