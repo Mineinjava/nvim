@@ -59,4 +59,6 @@ return {
     {"nvim-tree/nvim-tree.lua"},
     {'ggandor/leap.nvim'},
     {'mfussenegger/nvim-lint'},
+    {'williamboman/mason-lspconfig.nvim'},
+    {'VonHeikemen/lsp-zero.nvim', branch = 'v3.x'},
 }

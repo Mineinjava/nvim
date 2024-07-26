@@ -9,9 +9,10 @@ require("config.lazy")
 -- plugin commands
 require("mason").setup()
 require("config.autocomplete")
-require('leap').create_default_mappings() 
+require('leap').create_default_mappings()
 
 require("config.tree")
+require("config.lsp")
 vim.cmd.colorscheme "dracula"
 
 require('lint').linters_by_ft = {
