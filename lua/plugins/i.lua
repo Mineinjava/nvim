@@ -52,7 +52,7 @@ return {
         event = "InsertEnter",
     },
     {
-        'nvim-treesitter/nvim-treesitter',   
+        'nvim-treesitter/nvim-treesitter',
         event = "VeryLazy",
     },
     {"nathom/filetype.nvim"},
