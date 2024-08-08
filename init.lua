@@ -13,6 +13,7 @@ require('leap').create_default_mappings()
 
 require("config.tree")
 require("config.lsp")
+require("config.harpoon")
 vim.cmd.colorscheme "dracula"
 
 require('lint').linters_by_ft = {
