@@ -84,5 +84,11 @@ return {
       dependencies = { 'nvim-lua/plenary.nvim' }
   },
   { 'wakatime/vim-wakatime', lazy = false },
-{'honza/vim-snippets', lazy=false}
+  {'honza/vim-snippets', lazy=false},
+  {
+      'chomosuke/typst-preview.nvim',
+      lazy = false, -- or ft = 'typst'
+      version = '1.*',
+      opts = {}, -- lazy.nvim will implicitly calls `setup {}`
+  }
 }
