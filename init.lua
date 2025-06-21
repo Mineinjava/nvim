@@ -1,19 +1,18 @@
 vim.loader.enable()
-
 -- config files
 require("config.mappings")
 require("config.edit")
 -- plugin manager
 require("config.lazy")
 
--- plugin commands
+require("config.tree")
+require("config.lsp")
+require("config.harpoon")
+-- plugin command
 require("mason").setup()
 require("config.autocomplete")
 require('leap').create_default_mappings()
 
-require("config.tree")
-require("config.lsp")
-require("config.harpoon")
 vim.cmd.colorscheme "dracula"
 
 require('lint').linters_by_ft = {
