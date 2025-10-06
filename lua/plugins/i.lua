@@ -3,11 +3,6 @@ return {
         "williamboman/mason.nvim"
     },
     {
-        'folke/todo-comments.nvim',
-        dependencies = 'nvim-lua/plenary.nvim',
-        event="InsertEnter",
-    },
-    {
         'akinsho/git-conflict.nvim', config = function()
             require('git-conflict').setup()
         end,
@@ -53,7 +48,6 @@ return {
     },
     {
         'nvim-treesitter/nvim-treesitter',
-        event = "VeryLazy",
     },
     {"nathom/filetype.nvim"},
     {"nvim-tree/nvim-tree.lua"},

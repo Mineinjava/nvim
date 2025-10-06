@@ -15,6 +15,7 @@ end
 function vmap(shortcut, command)
   map('v', shortcut, command)
 end
+nmap(",fm", ":lua vim.lsp.buf.format()\n")
 
 nmap("<", ":call cursor(line(\".\"), 72)\n")
 -- copy paste
@@ -26,3 +27,4 @@ nmap(string.format("%sP", LEADER), '"+P')
 nmap(string.format("%sp", LEADER), '"+p')
 
 nmap(string.format("%st", LEADER), ":NvimTreeToggle\n")
+nmap(",k", "<C-w>d")
