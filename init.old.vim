@@ -20,4 +20,4 @@ set softtabstop=4           " see multiple spaces as tabstops so <BS> does the r
 set nocompatible            " disable compatibility to old-time vi
 set showmatch               " show matching 
 set ignorecase              " case insensitive
-
+set spell                   " spellcheck
